@@ -1,0 +1,86 @@
+.main_container{
+    padding: 5vh;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.list_of_students{
+    display: flex;
+    justify-content:space-between;
+    margin: 2vh auto;
+}
+ 
+.list_of_students div{
+    border: 1px solid rgb(188, 178, 178);
+    width: 20vw;
+    text-align: left;
+    padding: 10px ;
+}
+
+.list_of_students .address{
+    width: 30vw;
+}
+
+.csv-box {
+    border: 1px solid #51a89b;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .csv-input-container {
+    margin-bottom: 10px;
+  }
+  
+  .csv-input-container input[type='file'] {
+    border: none;
+    padding: 10px;
+    background-color: #a4efe2;
+    border-radius: 5px;
+  }
+  
+  .csv-input-container input[type='file']:focus {
+    outline: none;
+    border: 2px solid #1b3f6b;
+  }
+
+.csv-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5vh;
+    /* height: 30vh; */
+    
+  }
+  
+  .csv-table th,
+  .csv-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .csv-table th {
+    background-color: #77bbd2;
+    font-weight: bold;
+  }
+
+ .buttons{
+    display: flex;
+    justify-content: space-around;
+ } 
+ .buttons button{
+    padding: 2vh 3vw ;
+    margin: 0 1vw;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 13px;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+ }
+.export button{
+    background-color: black;
+    color: white;
+}
+.main_container_nav_heading{
+    display: flex;
+    justify-content: space-between;
+}
+ 
